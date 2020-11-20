@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/countries"
+        android:icon="@drawable/ic_baseline_data_usage_24"
+        android:title="@string/Countries"/>
+    <item
+        android:id="@+id/myCountry"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="@string/MyCountry"/>
+    <item
+        android:id="@+id/volunteer"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/Volunteer"/>
+    <item
+        android:id="@+id/protection"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
+        android:title="@string/Protection"/>
+
+</menu>
