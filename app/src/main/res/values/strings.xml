@@ -1,11 +1,3 @@
 <resources>
     <string name="app_name">corona_tracker</string>
-    <string name="title_activity_navigation">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="Countries">Countries</string>
-    <string name="MyCountry">My country</string>
-    <string name="Volunteer">Volunteer</string>
-    <string name="Protection">Protection</string>
 </resources>
