@@ -18,6 +18,49 @@
         tools:layout_editor_absoluteX="-57dp"
         tools:layout_editor_absoluteY="-50dp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="189dp"
+        android:layout_height="78dp"
+        android:text="شد دارك"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:texteColor="#FFFFFF"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="366dp"
+        android:layout_height="141dp"
+        android:text="ما نسلموش على بعضنا و ما نسلموش في بعضنا و أقسم مع جارك و عاونو كان يحتاجك لكلنا يد وحدة نحميو رواحنا و صغارنا و ناس الي نحبوهم"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:texteColor="#FFFFFF"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="265dp"
+        android:layout_height="37dp"
+        android:text="#شد دارك و احمي صغارك"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:texteColor="#FFFFFF"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="229dp"
+        android:layout_height="40dp"
+        android:text="#مع بعضنا غدوة خير"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:texteColor="#FFFFFF"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="598dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
