@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73"
 
-        tools:text="@string/Startbutton" />
+        tools:text="@string/starbutton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
