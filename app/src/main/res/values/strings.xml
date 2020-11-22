@@ -1,15 +1,7 @@
 <resources>
-    <string name="app_name" translatable="false">corona_tracker</string>
-    <string name="Countries" translatable="false">Countries</string>
-    <string name="MyCountry" translatable="false">My country</string>
-    <string name="Volunteer" translatable="false">Volunteer</string>
-    <string name="Protection" translatable="false">Protection</string>
-    <string name="editehint" translatable="false">type your request  ….</string>
-    <string name="Sendbutton" translatable="false">Send</string>
-    <string name="starbutton" translatable="false">Start</string>
-    <string name="tv1" translatable="false">شد دارك</string>
-    <string name="tv2" translatable="false">ما نسلموش على بعضنا و ما نسلموش في بعضنا و أقسم مع جارك و عاونو كان يحتاجك لكلنا يد وحدة نحميو رواحنا و صغارنا و ناس الي نحبوهم</string>
-    <string name="tv3" translatable="false">#شد دارك و احمي صغارك</string>
-    <string name="tv4" translatable="false">#مع بعضنا غدوة خير</string>
-
+    <string name="app_name">corona_tracker</string>
+    <string name="Countries">Countries</string>
+    <string name="MyCountry">My country</string>
+    <string name="Volunteer">Volunteer</string>
+    <string name="Protection">Protection</string>
 </resources>
