@@ -27,7 +27,7 @@
         android:layout_height="78dp"
         android:layout_marginStart="188dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/tv1"
+        android:text="شد دارك"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:texteColor="#FFFFFF"
@@ -38,14 +38,14 @@
         android:id="@+id/textView6"
         android:layout_width="366dp"
         android:layout_height="141dp"
-        android:layout_marginBottom="36dp"
-        android:text="@string/tv2"
+        android:layout_marginBottom="4dp"
+        android:text="ما نسلموش على بعضنا و ما نسلموش في بعضنا و أقسم مع جارك و عاونو كان يحتاجك لكلنا يد وحدة نحميو رواحنا و صغارنا و ناس الي نحبوهم"
         android:textColor="#FFFFFF"
         android:textSize="25dp"
         android:texteColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -53,14 +53,13 @@
         android:layout_width="265dp"
         android:layout_height="37dp"
         android:layout_marginStart="144dp"
-        android:layout_marginBottom="32dp"
-        android:text="@string/tv3"
+        android:layout_marginBottom="40dp"
+        android:text="#شد دارك و احمي صغارك"
         android:textColor="#FFFFFF"
         android:textSize="25dp"
         android:texteColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -68,16 +67,15 @@
         android:layout_width="229dp"
         android:layout_height="40dp"
         android:layout_marginTop="132dp"
-        android:text="@string/tv4"
+        android:text="#مع بعضنا غدوة خير"
         android:textColor="#FFFFFF"
         android:textSize="25dp"
         android:texteColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
