@@ -4,4 +4,12 @@
     <string name="MyCountry">My country</string>
     <string name="Volunteer">Volunteer</string>
     <string name="Protection">Protection</string>
+    <string name="Overview_cases">Overview cases</string>
+    <string name="Cases">Cases</string>
+    <string name="recovered">recovered</string>
+    <string name="Deaths">Deaths</string>
+    <string name="population_with">population with coronavirus</string>
+    <string name="graphconfirmed">confirmed</string>
+    <string name="graphrecovered">recovered</string>
+    <string name="graphdeaths">deaths</string>
 </resources>
