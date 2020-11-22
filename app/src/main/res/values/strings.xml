@@ -14,4 +14,11 @@
     <string name="graphdeaths">deaths</string>
     <string name="send">Send</string>
     <string name="requesthint">type your request  ….</string>
+    <string name="c_country">World</string>
+    <string name="c_cases">Cases :</string>
+    <string name="c_active">Active :</string>
+    <string name="c_todaycases">Today Cases :</string>
+    <string name="c_death">Deaths :</string>
+    <string name="c_recovered">Recovered :</string>
+    <string name="c_certival">certical :</string>
 </resources>
