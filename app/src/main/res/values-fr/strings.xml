@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">corona tracker</string>
+    <string name="Countries">pays</string>
+    <string name="MyCountry">Mon pays</string>
+    <string name="Volunteer">volontaire</string>
+    <string name="Overview_cases">Aperçu des cas</string>
+    <string name="Protection">Protection</string>
+    <string name="Cases">Cas</string>
+    <string name="recovered">rétablie</string>
+    <string name="Deaths">Décès</string>
+    <string name="population_with">population avec coronavirus</string>
+    <string name="graphconfirmed">confirmé</string>
+    <string name="graphrecovered">rétablie</string>
+    <string name="graphdeaths">Décès</string>
+    <string name="send">Envoyer</string>
+    <string name="requesthint">tapez votre demande….</string>
+    <string name="c_country">Monde</string>
+    <string name="c_cases">"Cas : "</string>
+    <string name="c_active">Actif :</string>
+    <string name="c_todaycases">Cas d\'aujourd\'hui:</string>
+    <string name="c_death">Décès :</string>
+    <string name="c_recovered">Récupéré:</string>
+    <string name="c_certival">vertical:</string>
+</resources>
