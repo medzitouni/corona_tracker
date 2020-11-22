@@ -12,4 +12,6 @@
     <string name="graphconfirmed">confirmed</string>
     <string name="graphrecovered">recovered</string>
     <string name="graphdeaths">deaths</string>
+    <string name="send">Send</string>
+    <string name="requesthint">type your request  ….</string>
 </resources>
