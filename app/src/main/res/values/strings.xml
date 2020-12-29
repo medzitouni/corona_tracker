@@ -14,4 +14,22 @@
     <string name="graphdeaths">deaths</string>
     <string name="send">Send</string>
     <string name="requesthint">type your request  ….</string>
+    <string name="c_country">World</string>
+    <string name="c_cases">Cases :</string>
+    <string name="c_active">Active :</string>
+    <string name="c_todaycases">Today Cases :</string>
+    <string name="c_death">Deaths :</string>
+    <string name="c_recovered">Recovered :</string>
+    <string name="c_certival">certical :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editehint">type your request ….</string>
+    <string name="Sendbutton">send</string>
+    <string name="start">Start</string>
+    <string name="todo">TODO</string>
+    <string name="nb_active_cntry">222,111,000</string>
+    <string name="nb_death_cntry">1,200,300</string>
+    <string name="recovred_cntry">35,111,000</string>
+    <string name="certical_cntry">211,000</string>
+    <string name="nbcases_cntry">222,111,000</string>
 </resources>

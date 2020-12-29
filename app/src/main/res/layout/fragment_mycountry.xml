@@ -57,13 +57,13 @@
 
                         android:text="@string/c_cases"
                         android:textColor="#FB4C57"
-                        android:textSize="20dp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="222,111,000"
+                        android:text="@string/nbcases_cntry"
                         android:textColor="#D9ECF6"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -85,7 +85,7 @@
                         android:id="@+id/textView10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="222,111,000"
+                        android:text="@string/nb_death_cntry"
                         android:textColor="#D9ECF6"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -107,7 +107,7 @@
                         android:id="@+id/textView11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1,200,300"
+                        android:text="@string/nb_death_cntry"
                         android:textColor="#D9ECF6"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -129,7 +129,7 @@
                         android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="35,111,000"
+                        android:text="@string/recovred_cntry"
                         android:textColor="#D9ECF6"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -151,7 +151,7 @@
                         android:id="@+id/textView21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="211,000"
+                        android:text="@string/certical_cntry"
                         android:textColor="#D9ECF6"
                         android:textSize="20sp" />
                 </LinearLayout>

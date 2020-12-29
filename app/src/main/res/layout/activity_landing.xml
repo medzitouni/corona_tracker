@@ -16,7 +16,7 @@
         android:layout_margin="40dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/radius"
-        android:text="Start"
+        android:text="@string/start"
         android:textColor="#FFEB3B"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
