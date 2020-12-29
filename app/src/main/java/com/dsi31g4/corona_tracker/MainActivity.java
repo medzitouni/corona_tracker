@@ -7,11 +7,13 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.Window;
+import android.widget.TextView;
 
+import com.dsi31g4.corona_tracker.country.CountryFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-
+TextView casedeathNumber,recoveredNumber,deathNumber;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         BottomNavigationView Bottomnav = findViewById(R.id.bottomMenu);
         Bottomnav.setOnNavigationItemSelectedListener(navListener);
+
+
     }
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -34,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                             selectedFragment = new CountriesFragment();
                             break;
                         case R.id.myCountry:
-                            selectedFragment = new MycountryFragment();
+                            selectedFragment = new CountryFragment();
                             break;
                         case R.id.protection:
                             selectedFragment = new ProtectionFragment();

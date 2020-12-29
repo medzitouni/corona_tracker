@@ -7,5 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cases">#EF5350</color>
+    <color name="recovered">#66BB6A</color>
+    <color name="deaths">#272829</color>
 
+    <color name="colorPrimary">#222222</color>
+    <color name="colorPrimaryDark">#002d72</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorTotalConfirmed">#e60000</color>
+    <color name="colorTotalDeaths">#999999</color>
+    <color name="colorTotalRecovered">#7bb974</color>
 </resources>

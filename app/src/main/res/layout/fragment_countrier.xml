@@ -28,13 +28,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center">
 
             <RelativeLayout
                 android:layout_width="120dp"
                 android:layout_height="130dp"
                 android:background="@drawable/imgcases"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:gravity="center">
 
                 <LinearLayout
@@ -74,7 +75,7 @@
                 android:layout_width="120dp"
                 android:layout_height="130dp"
                 android:background="@drawable/imgcases"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:gravity="center">
 
                 <LinearLayout
@@ -114,7 +115,7 @@
                 android:layout_width="120dp"
                 android:layout_height="130dp"
                 android:background="@drawable/imgcases"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:gravity="center">
 
                 <LinearLayout
@@ -163,79 +164,83 @@
             android:layout_marginTop="12dp"
             android:layout_marginLeft="5dp"/>
 
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-
+            android:weightSum="2"
+            >
+            <org.eazegraph.lib.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                />
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:orientation="vertical"
-                android:layout_gravity="center_vertical">
+                android:gravity="center_vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/rectanglerouge" />
-
+                    android:layout_height="15dp"
+                    android:gravity="center_vertical">
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/cases"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/graphconfirmed"
-                        android:textColor="#B1DFF9"
-                        android:textSize="18sp" />
-                </LinearLayout>
+                        android:paddingLeft="10dp"
+                        android:textColor="#B1DFF9"/>
 
+                </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/rectanglevert" />
-
+                    android:layout_height="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/recovered"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/graphrecovered"
-                        android:textColor="#B1DFF9"
-                        android:textSize="18sp" />
-                </LinearLayout>
+                        android:paddingLeft="10dp"
+                        android:textColor="#B1DFF9"/>
 
+                </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/rectanglenoire" />
-
+                    android:layout_height="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/deaths"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/graphdeaths"
-                        android:textColor="#B1DFF9"
-                        android:textSize="18sp" />
-                </LinearLayout>
-            </LinearLayout>
+                        android:paddingLeft="10dp"
+                        android:textColor="#B1DFF9"/>
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                 />
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 
