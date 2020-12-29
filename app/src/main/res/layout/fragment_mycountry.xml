@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#060B30"
     tools:context=".MainActivity"
-    >
+    android:id="@+id/mycountry_page">
 
     <LinearLayout
         android:layout_width="match_parent"

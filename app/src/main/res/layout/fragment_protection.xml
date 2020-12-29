@@ -5,10 +5,11 @@
     style="@style/TextAppearance.AppCompat.Display1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pa2"
+    android:background="@drawable/backgroud"
     android:rotationX="0"
     android:rotationY="0"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/protection_page">
 
     <ImageView
         android:id="@+id/imageView2"
