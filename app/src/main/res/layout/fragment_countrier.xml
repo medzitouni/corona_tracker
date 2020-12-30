@@ -39,8 +39,13 @@
                 android:gravity="center">
 
                 <LinearLayout
+                    android:id="@+id/parentimg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -52,22 +57,22 @@
                         android:id="@+id/casedeathNumber"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
                         android:text="51,360,778"
                         android:textColor="#F44336"
-                        android:textSize="21sp"
-                        android:gravity="center"
-                        android:layout_marginTop="20dp"/>
+                        android:textSize="21sp" />
 
                     <TextView
                         android:id="@+id/caserecovered"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:gravity="center"
                         android:text="@string/Cases"
                         android:textColor="#000000"
                         android:textSize="23sp"
-                        android:gravity="center"
-                        android:layout_marginTop="18dp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                 </LinearLayout>
             </RelativeLayout>
@@ -102,7 +107,7 @@
                         android:id="@+id/textrecovered"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="18dp"
+                        android:layout_marginTop="14dp"
                         android:gravity="center"
                         android:text="@string/recovered"
                         android:textColor="#000000"
@@ -142,12 +147,14 @@
                         android:id="@+id/textdeath"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:gravity="center"
                         android:text="@string/Deaths"
                         android:textColor="#000000"
                         android:textSize="23sp"
-                        android:gravity="center"
-                        android:layout_marginTop="18dp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+
+                        />
 
                 </LinearLayout>
             </RelativeLayout>
@@ -162,7 +169,9 @@
             android:textColor="#B1DFF9"
             android:textSize="18sp"
             android:layout_marginTop="12dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+
+            />
 
 
         <LinearLayout
@@ -190,53 +199,68 @@
                 android:gravity="center_vertical">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_width="157dp"
+                    android:layout_height="41dp"
                     android:gravity="center_vertical">
+
                     <View
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:background="@color/cases"/>
+                        android:layout_width="28dp"
+                        android:layout_height="11dp"
+                        android:background="@color/cases" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="103dp"
+                        android:layout_height="25dp"
+                        android:paddingLeft="10dp"
                         android:text="@string/graphconfirmed"
-                        android:paddingLeft="10dp"
-                        android:textColor="#B1DFF9"/>
+                        android:textColor="#B1DFF9" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
-                    android:gravity="center_vertical"
-                    android:layout_marginTop="5dp">
+                    android:layout_height="32dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical">
+
                     <View
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:background="@color/recovered"/>
+                        android:layout_width="28dp"
+                        android:layout_height="9dp"
+                        android:background="@color/recovered" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="83dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="6.5dp"
+                        android:paddingLeft="10dp"
                         android:text="@string/graphrecovered"
-                        android:paddingLeft="10dp"
-                        android:textColor="#B1DFF9"/>
+                        android:textColor="#B1DFF9"
+
+                        />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="15dp"
                     android:gravity="center_vertical"
-                    android:layout_marginTop="5dp">
+
+                    >
+
                     <View
-                        android:layout_width="15dp"
-                        android:layout_height="match_parent"
-                        android:background="@color/deaths"/>
+                        android:layout_width="25dp"
+                        android:layout_height="14dp"
+                        android:background="@color/deaths" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/graphdeaths"
                         android:paddingLeft="10dp"
-                        android:textColor="#B1DFF9"/>
+                        android:text="@string/graphdeaths"
+                        android:textColor="#B1DFF9"
+
+                        />
 
                 </LinearLayout>
 

@@ -8,75 +8,13 @@
     android:background="@drawable/backgroud"
     android:rotationX="0"
     android:rotationY="0"
-    tools:context=".MainActivity"
+    tools:context=".ProtectionFragment"
     android:id="@+id/protection_page">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="464dp"
-        android:layout_height="352dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/drapeau" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="189dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="188dp"
-        android:layout_marginBottom="8dp"
-        android:text="شد دارك"
-        android:textColor="#FFFFFF"
-        android:textSize="40dp"
-        android:texteColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="366dp"
-        android:layout_height="141dp"
-        android:layout_marginBottom="4dp"
-        android:text="ما نسلموش على بعضنا و ما نسلموش في بعضنا و أقسم مع جارك و عاونو كان يحتاجك لكلنا يد وحدة نحميو رواحنا و صغارنا و ناس الي نحبوهم"
-        android:textColor="#FFFFFF"
-        android:textSize="25dp"
-        android:texteColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="265dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="40dp"
-        android:text="#شد دارك و احمي صغارك"
-        android:textColor="#FFFFFF"
-        android:textSize="25dp"
-        android:texteColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="229dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="132dp"
-        android:text="#مع بعضنا غدوة خير"
-        android:textColor="#FFFFFF"
-        android:textSize="25dp"
-        android:texteColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="306dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
