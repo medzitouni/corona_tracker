@@ -21,7 +21,7 @@ public class VolunteerFragment extends Fragment {
         // Inflate the layout for this fragment
         View v=inflater.inflate(R.layout.fragment_volunteer, container, false);
 
-        btnAllo=v.findViewById(R.id.btnAllo);
+        btnAllo=v.findViewById(R.id.btncall);
         btnAllo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
