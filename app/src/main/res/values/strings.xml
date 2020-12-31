@@ -1,35 +1,35 @@
 <resources>
-    <string name="app_name">corona tracker</string>
-    <string name="Countries">Countries</string>
-    <string name="MyCountry">My country</string>
-    <string name="Volunteer">Volunteer</string>
-    <string name="Protection">Protection</string>
-    <string name="Overview_cases">Overview cases</string>
-    <string name="Cases">Cases</string>
-    <string name="recovered">recovered</string>
-    <string name="Deaths">Deaths</string>
-    <string name="population_with">population with coronavirus</string>
-    <string name="graphconfirmed">confirmed</string>
-    <string name="graphrecovered">recovered</string>
-    <string name="graphdeaths">deaths</string>
-    <string name="send">Send</string>
-    <string name="requesthint">type your request  ….</string>
-    <string name="c_country">World</string>
-    <string name="c_cases">Cases :</string>
-    <string name="c_active">Active :</string>
-    <string name="c_todaycases">Today Cases :</string>
-    <string name="c_death">Deaths :</string>
-    <string name="c_recovered">Recovered :</string>
-    <string name="c_certival">certical :</string>
+    <string name="app_name" translatable="false">corona tracker</string>
+    <string name="Countries" translatable="false">Countries</string>
+    <string name="MyCountry" translatable="false">My country</string>
+    <string name="Volunteer" translatable="false">Volunteer</string>
+    <string name="Protection" translatable="false">Protection</string>
+    <string name="Overview_cases" translatable="false">Overview cases</string>
+    <string name="Cases" translatable="false">Cases</string>
+    <string name="recovered" translatable="false">recovered</string>
+    <string name="Deaths" translatable="false">Deaths</string>
+    <string name="population_with" translatable="false">population with coronavirus</string>
+    <string name="graphconfirmed" translatable="false">confirmed</string>
+    <string name="graphrecovered" translatable="false">recovered</string>
+    <string name="graphdeaths" translatable="false">deaths</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="requesthint" translatable="false">type your request  ….</string>
+    <string name="c_country" translatable="false">World</string>
+    <string name="c_cases" translatable="false">Cases :</string>
+    <string name="c_active" translatable="false">Active :</string>
+    <string name="c_todaycases" translatable="false">Today Cases :</string>
+    <string name="c_death" translatable="false">Deaths :</string>
+    <string name="c_recovered" translatable="false">Recovered :</string>
+    <string name="c_certival" translatable="false">certical :</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="editehint">type your request ….</string>
-    <string name="Sendbutton">send</string>
-    <string name="start">Start</string>
-    <string name="todo">TODO</string>
-    <string name="nb_active_cntry">222,111,000</string>
-    <string name="nb_death_cntry">1,200,300</string>
-    <string name="recovred_cntry">35,111,000</string>
-    <string name="certical_cntry">211,000</string>
-    <string name="nbcases_cntry">222,111,000</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="editehint" translatable="false">type your request ….</string>
+    <string name="Sendbutton" translatable="false">send</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="nb_active_cntry" translatable="false">222,111,000</string>
+    <string name="nb_death_cntry" translatable="false">1,200,300</string>
+    <string name="recovred_cntry" translatable="false">35,111,000</string>
+    <string name="certical_cntry" translatable="false">211,000</string>
+    <string name="nbcases_cntry" translatable="false">222,111,000</string>
 </resources>

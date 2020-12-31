@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">corona tracker</string>
+    <string name="Countries">بلدان</string>
+    <string name="MyCountry">بلدي</string>
+    <string name="Volunteer">تطوع</string>
+    <string name="Overview_cases">نظرة عامة على الحالات</string>
+    <string name="Protection">الحماية</string>
+    <string name="Cases">الحالات</string>
+    <string name="recovered">مسترد عافيته</string>
+    <string name="Deaths">حالات الوفاة</string>
+    <string name="population_with">السكان المصابين بفيروس كورونا</string>
+    <string name="graphconfirmed">الرسم البياني حالات مؤكدة </string>
+    <string name="graphrecovered">الرسم البياني للمتعافين </string>
+    <string name="graphdeaths"> الرسم البياني للوفيات</string>
+    <string name="send">إرسال </string>
+    <string name="requesthint">اكتب طلبك….</string>
+    <string name="c_country">العالم</string>
+    <string name="c_cases">"الحالات : "</string>
+    <string name="c_active">نشطة :</string>
+    <string name="c_todaycases">حالات اليوم</string>
+    <string name="c_death">وفاة :</string>
+    <string name="c_recovered">متعافي:</string>
+    <string name="c_certival">عمودي:</string>
+    <string name="editehint">اكتب</string>
+    <string name="Sendbutton">إرسال</string>
+    <string name="hello_blank_fragment">مرحبا</string>
+    <string name="todo"> للفعل</string>
+    <string name="nbcases_cntry">222,111,000</string>
+    <string name="nb_active_cntry">222,111,000</string>
+    <string name="nb_death_cntry">1,200,300</string>
+    <string name="recovred_cntry">35,111,000</string>
+    <string name="certical_cntry">211,000</string>
+    <string name="start">بداية</string>
+</resources>

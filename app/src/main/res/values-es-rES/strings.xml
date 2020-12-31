@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">corona tracker</string>
+    <string name="Countries">Países</string>
+    <string name="MyCountry">Mi pais</string>
+    <string name="Volunteer">Voluntario</string>
+    <string name="Overview_cases">Aperçu des cas</string>
+    <string name="Protection">Protection</string>
+    <string name="Cases">casos</string>
+    <string name="recovered">recuperado</string>
+    <string name="Deaths">fallecidos</string>
+    <string name="population_with">población con coronavirus</string>
+    <string name="graphconfirmed">confirmado</string>
+    <string name="graphrecovered">recuperado</string>
+    <string name="graphdeaths">fallecidos</string>
+    <string name="send">enviar</string>
+    <string name="requesthint">Escriba su solicitud….</string>
+    <string name="c_country">país</string>
+    <string name="c_cases">"casos : "</string>
+    <string name="c_active">activo :</string>
+    <string name="c_todaycases">casos de hoy:</string>
+    <string name="c_death">muerte :</string>
+    <string name="c_recovered">recuperado:</string>
+    <string name="c_certival">vertical:</string>
+    <string name="editehint">Escribir</string>
+    <string name="Sendbutton">Enviar</string>
+    <string name="hello_blank_fragment">Hola</string>
+    <string name="todo">por hacer</string>
+    <string name="nbcases_cntry">222,111,000</string>
+    <string name="nb_active_cntry">222,111,000</string>
+    <string name="nb_death_cntry">1,200,300</string>
+    <string name="recovred_cntry">35,111,000</string>
+    <string name="certical_cntry">211,000</string>
+    <string name="start">comienzo</string>
+</resources>

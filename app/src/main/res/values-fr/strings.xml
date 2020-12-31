@@ -20,12 +20,12 @@
     <string name="c_active">Actif :</string>
     <string name="c_todaycases">Cas d\'aujourd\'hui:</string>
     <string name="c_death">Décès :</string>
-    <string name="c_recovered">Récupéré:</string>
+    <string name="c_recovered">guéri:</string>
     <string name="c_certival">vertical:</string>
     <string name="editehint">tapez</string>
     <string name="Sendbutton">envoyer</string>
     <string name="hello_blank_fragment">bonjour</string>
-    <string name="todo">Tod</string>
+    <string name="todo">à faire</string>
     <string name="nbcases_cntry">222,111,000</string>
     <string name="nb_active_cntry">222,111,000</string>
     <string name="nb_death_cntry">1,200,300</string>
