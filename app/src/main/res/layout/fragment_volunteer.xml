@@ -14,7 +14,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginTop="300dp"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,12 +28,13 @@
                 android:layout_height="62dp"
                 android:background="@drawable/admin" />
 
-            <ImageView
-                android:id="@+id/imageView3"
+            <ImageButton
+                android:id="@+id/btnAllo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="-50dp"
-                app:srcCompat="@drawable/allo" />
+                android:layout_marginStart="-50dp"
+                app:srcCompat="@drawable/allo"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
 
         <EditText
